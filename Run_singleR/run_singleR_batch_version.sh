@@ -17,7 +17,7 @@ module load miniconda3/4.10.3_gcc_9.5.0
 
 
 source activate r-singlecell-r4.1-py3.10
-SCRIPT='/cluster/pixstor/xudong-lab/suli/Alg_development/use_singleR/scripts/run_singleR.R'
+SCRIPT='run_singleR.R'
 
 major_dir="/cluster/pixstor/xudong-lab/suli/Alg_others/scBERT_jobs_Fei/data/"
 data_directory_name='mouse_filtered_5fold_independent'
